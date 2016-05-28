@@ -12,4 +12,4 @@
 hs_err_pid*
 
 #ignoring the target folder for maven projects
-/target/*
+Detention/target/*
