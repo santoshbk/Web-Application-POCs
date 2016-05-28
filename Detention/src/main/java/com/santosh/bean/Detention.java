@@ -7,7 +7,6 @@ public class Detention {
 	private String name;
 	private String type;
 	private String time;
-	// private Time time;
 	private List<String> list;
 
 	public Detention() {
@@ -24,15 +23,15 @@ public class Detention {
 	public String getTime() {
 		return time;
 	}
-	
+
 	public String getType() {
 		return type;
 	}
-	
+
 	public void setTime(String time) {
 		this.time = time;
 	}
-	
+
 	public void setType(String type) {
 		this.type = type;
 	}
@@ -44,7 +43,5 @@ public class Detention {
 	public void setList(List<String> list) {
 		this.list = list;
 	}
-
-	
 
 }

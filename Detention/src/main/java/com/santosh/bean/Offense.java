@@ -9,7 +9,7 @@ public enum Offense {
 	private Offense(double val) {
 		this.val = val;
 	}
-	
+
 	public double getVal() {
 		return val;
 	}

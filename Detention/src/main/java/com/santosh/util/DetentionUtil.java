@@ -7,6 +7,8 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 import org.springframework.ui.Model;
 
+import com.santosh.bean.Offense;
+
 @Component
 public class DetentionUtil {
 
@@ -15,5 +17,5 @@ public class DetentionUtil {
 		list.addAll(Arrays.asList("HOMEWORK", "STEALING", "FIGHTING", "UNTYDINESS", "LYING", "DAMAGE"));
 		model.addAttribute("detentionList", list);
 	}
-
+	
 }
